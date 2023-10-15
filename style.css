@@ -69,12 +69,12 @@ footer{
 }
 .fav-links{
     flex:1;
-    border:1px solid;
 }
 
 .Install{
     padding-left:28px;
-   flex:4;
+     flex:4;
+     padding-top:30px;
 }
 .Install>a>img{
     margin-right: 10px;
@@ -87,7 +87,7 @@ footer{
 }
 
 .fav-links>li{
-    padding:8px 0px;
+    padding:5px 0px;
 }
 .background{
   background-color: white;
