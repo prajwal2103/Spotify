@@ -36,23 +36,24 @@
 }
 .nav-1>li>a>img{
     width:25px;
-    height:23px;
+    height:20px;
     padding-right: 5px;
 }
 .nav-1>li{
     list-style-type: none;
     color:white;
-    padding:15px 0px;
+    padding:10px 0px;
 }
 .nav-1>li>a>span{
-    font-size: 16px;
+    font-size: 13px;
     padding-left: 10px;
 }
 .last-img{
- flex:2;
+  height:38%;
+  padding-left: 15px;
 }
 .last-img>img{
-   width:200px;
+   width:150px;
 }
 #sp>a>img{
   width:28px;
@@ -65,7 +66,7 @@ footer{
     bottom:0px;
     background-color: #181818;
     width:100vw;
-    height:13vh;
+    height:11vh;
     color:white;
     margin:0px;
     padding:0px;
@@ -253,12 +254,14 @@ li:hover{
     padding:15px 0px;
   }
   .navigation-container{
-    flex:3;
+    height: 60%;
+   
   }
   .content-logo>img{
     opacity: 0.6;
     cursor: pointer;
   }
+  
 
   
 
