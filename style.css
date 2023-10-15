@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Poppins;
+    position: relative;
+}
+.Containerr{
+    height:100vh;
+    display:flex;
+    background-color: #000;
+}
+.sidebar{
+    flex:0.2;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+   
+}
+.main-content{
+    flex:0.8;
+    background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%,
+     #131313 44.89%, #121212 55.22%, #121212 75.34%,
+      #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
+      display: flex;
+      flex-direction: column;
+      height:100vh;
+     overflow-y: auto;
+      
+}
+footer{
+    position:fixed;
+    bottom:0px;
+    background-color: #181818;
+    width:100vw;
+    height:11vh;
+    color:white;
+    margin:0px;
+    padding:0px;
+    z-index: 2;
+    display:flex;
+    flex-direction: column;
+}
+.navigation>ul>li,ul>li{
+    list-style-type:none ;
+}
+.nav-1>li>a>img{
+    width: 25px;
+    height: 25px;
+    padding-right:5px;
+}
+
+.logo>a>img{
+    width:150px;
+}
+.logo{
+    flex:0.1;
+    /* border:1px solid; */
+    /* margin */
+    padding:15px 20px;
+}
+.navigation{
+    flex:0.1;
+   margin-block: 8px;
+}
+.navigation>ul>li>a{
+    display: flex;
+    align-items: center;
+}
+.fav-links{
+    flex:0.5;
+    padding-bottom: 4px;
+   
+}
+.Install{
+    padding-left:28px;
+    width:fit-content;
+   padding-bottom: 15px;
+   
+    
+}
+.Install>a>img{
+    margin-right: 10px;
+}
+.navigation>.nav-1>li{
+ margin-bottom: 10px;
+}
+.navigation>.nav-1{
+    padding-top: 10px;
+}
+
+.fav-links>li{
+    padding:5px 0px;
+}
+.background{
+  background-color: white;
+  width:25px;
+  height:25px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-2>li{
+   margin-bottom: 15px;
+}
+.nav-2>li>a>img,.nav-2>li>a>div{
+    margin-right: 10px;
+}
+.nav-1>li>a>span{
+   margin-left:5px;
+
+}
+.nav-1>li{
+    padding-top:8px;
+   
+}
+.nav-1>li,.nav-2>li{
+    transition: all 1s ease 0s;
+}
+.nav-1>li:hover{
+   
+    border-radius: 6px;
+background: #282828;
+cursor: pointer;
+ 
+}
+.nav-2>li:hover{
+    border-radius: 6px;
+    background: #282828;
+    cursor: pointer;
+}
+.player-part1{
+    padding-left: 10px;
+}
+.player-part1 h4{
+  font-size:14px;
+}
+.player-part1 p{
+    font-size: 12px;
+}
+.player-img>img{
+   width:55px;
+   height:55px;
+}
+.player-progressbar{
+    width:400px;
+    height:8px;
+    background-color: grey;
+    border-radius: 10px;
+}
+.player-progressbar>div{
+    width:70%;
+    height: 100%;
+    background-color: rgb(204, 178, 178);
+    border-radius: 10px;
+}
+.player-part2>div>.size{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.player-part2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.player-part3>img{
+  margin-right: 5px;
+}
+.footer-img{
+    position: relative;
+    background-color: #1ED760;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    margin-top: 2px;
+}
+.footer-img p{
+    font-size: 14px;
+}
+.top{
+  position: absolute;
+  top:-12px;
+  width:10%;
+}
+.upper-1>img{
+    width:70px;
+    height:30px;
+}
+.upper-2{
+    width:120px;
+    height: 41px;
+    border-radius: 33px;
+  background-color: #0A0A0A;
+}
+.upper-2 p{
+    color:white;
+}
+.upper-2{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+   
+   
+}
+.upper-2 p{
+  font-size: 16px;
+  margin-top: 15px;
+  flex:1;
+  padding-left: 5px;
+
+}
+.upper-second{
+    color:white;
+}
+
+.card-1{
+    /* margin: 0px !important; */
+     padding: 0px !important;
+background-color: #303030;
+overflow: hidden;
+}
+.card-image>img{
+    width:100px !important;
+    height: 100px!important;;
+}
+.upper-third{
+    color:white;
+}
+.card-con{
+    padding:0px !important;
+}
+.cards{
+    width:160px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    background-color: #181818;
+    border-radius: 10px;
+    padding: 5px;
+    margin:10px 5px;
+   
+  
+}
+::-webkit-scrollbar{
+    display:none;
+}
+
+.cards>img{
+ width:100%;
+}
+.cards h4{
+    font-size: 14px !important;
+}
+.cards p{
+    font-size: 10px;
+}
+.cards>div{
+    flex:2;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.card-container{
+   margin-left: 10px;
+    width:70%;
+    padding-left:10px;
+}

@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+   
+    font-family: Poppins;
+}
+.full-screen{
+    height:100vh;
+    display:flex;
+}
+.sidebar{
+    flex:0.2;
+    background-color: #000;
+    padding-inline: 10px;
+    position: relative;
+    overflow: auto;
+}
+.content{
+    flex:0.9;
+    background: linear-gradient(180deg, #90AEA7 , #000,#000 );
+     overflow: auto;
+     height:100vh;
+     display: flex;
+     flex-direction: column;
+}
+::-webkit-scrollbar{
+  display:none;
+}
+.logo>a>img{
+    width: 150px;
+}
+.logo{
+   padding:12px 16px;
+}
+.nav-1>li>a>img{
+    width:25px;
+    height:23px;
+    padding-right: 5px;
+}
+.nav-1>li{
+    list-style-type: none;
+    color:white;
+    padding:10px 0px;
+}
+.nav-1>li>a>span{
+    font-size: 14px;
+    padding-left: 10px;
+}
+.last-img{
+  padding-top: 40px;
+}
+.last-img>img{
+   width:200px;
+}
+#sp>a>img{
+  width:28px;
+  height:26px;
+  padding:0px;
+  
+}
+footer{
+    position:fixed;
+    bottom:0px;
+    background-color: #181818;
+    width:100vw;
+    height:13vh;
+    color:white;
+    margin:0px;
+    padding:0px;
+    z-index: 2;
+    overflow:hidden;
+   
+}
+.background{
+    background-color: white;
+    width:25px;
+    height:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigation>ul>li>a{
+    display: flex;
+    align-items: center;
+}
+.navigation h3{
+    color:white;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+.nav-1 {
+    transition: all 1s ease 0s;
+}
+li:hover{
+    border-radius: 6px;
+    background: #282828;
+ cursor: pointer;
+}
+.footer-des{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+    margin-top: 12px;
+}
+.footer-des>h5{
+    font-size:15px;
+    margin:0px;
+}
+.footer-des>p{
+    font-size: 10px;
+}
+
+.footer-container{
+    width:100vw;
+    height:100%;
+}
+.player-progressbar{
+    width:400px;
+    height:8px;
+    background-color: grey;
+    border-radius: 10px;
+}
+.player-progressbar>div{
+    width:100%;
+    height: 100%;
+    background-color: rgb(204, 178, 178);
+    border-radius: 10px;
+}
+.player-part2>div>.size{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.player-part2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.player-part3>img{
+    margin-right: 10px;
+  }
+  .content-1-container{
+    flex:0.5;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .content-1{
+    display:flex;
+  }
+  .content-2{
+    flex:0.5;
+  }
+  .content-logo img{
+    width:300px;
+   
+  }
+  .content-des{
+    color:white;
+  }
+  .content-des h2{
+    font-size: 40px;
+    font-weight: 900;
+  }
+  .dotted{
+    width:30px;
+    border-bottom: 4px dotted white;
+    margin-left: 10px;
+  }
+  .content-icons>i{
+     font-size: 40px;
+     margin-inline: 14px;
+  }
+  .content-icons{
+    margin-top: 10px;
+    padding-left: 18px;
+  }
+  /* .content-2-title{
+    color:white;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .player-details{
+    color:white;
+  }
+  .detail-1 h6{
+     font-size: 15px !important;
+     font-weight: 400;
+  }
+  .detail-1 p{
+    font-size: 8px;
+  }
+  .detail-1>.music-logo{
+     margin-bottom: 15px;
+     margin-right: 10px;
+  }
+  .detail-1>div>img{
+    width:35px;
+    height:40px;
+  }
+  .detail-des{
+    border:1px solid;
+   
+  } */
+  .content-2>table{
+   width: 100%;
+   color:white;
+  }
+  .content-2{
+   padding:10px;
+  }
+  .song-img>img{
+    width:50px;
+    height:50px;
+  }
+  
+  .song-list h6{
+       font-size:13px!important;
+  }
+  .song-list p{
+    font-size: 10px;
+  }
+  .al{
+    text-align: center;
+  }
+  .time{
+    font-size: 14px;
+    margin-top: 12px;
+    margin-left: 10px;
+  }
+  .heart{
+    font-size: 18px !important;
+  }
+  .title{
+    text-align: left;
+  }
+  table{
+    transition: all 1s ease 1s;
+  }
+  tr:hover{
+    background-color: #181818;
+  }
+  .content-icons{
+    transition: all 1s ease 1s;
+  }
+  i:hover{
+    transform: scale(2);
+  }
+   
+
+
+  
+
+ 
+
