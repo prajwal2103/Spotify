@@ -44,6 +44,7 @@ footer{
 }
 .navigation>ul>li,ul>li{
     list-style-type:none ;
+    padding: 5px 0px;
 }
 .nav-1>li>a>img{
     width: 25px;
@@ -56,8 +57,6 @@ footer{
 }
 .logo{
     flex:0.1;
-    /* border:1px solid; */
-    /* margin */
     padding:15px 20px;
 }
 .navigation{
@@ -69,14 +68,12 @@ footer{
     align-items: center;
 }
 .fav-links{
-    flex:0.5;
-    padding-bottom: 4px;
-   
+    flex:0.4;
 }
+
 .Install{
     padding-left:28px;
-    width:fit-content;
-   padding-bottom: 15px;
+   
    
     
 }
@@ -91,7 +88,7 @@ footer{
 }
 
 .fav-links>li{
-    padding:5px 0px;
+    padding:8px 0px;
 }
 .background{
   background-color: white;
@@ -175,6 +172,7 @@ cursor: pointer;
     align-items: center;
     padding-right: 10px;
     margin-top: 2px;
+    height:100%;
 }
 .footer-img p{
     font-size: 14px;
@@ -262,7 +260,15 @@ overflow: hidden;
     padding-left: 5px;
 }
 .card-container{
-   margin-left: 10px;
-    width:70%;
+   margin-left: 30px;
+    width:65%;
     padding-left:10px;
+    transition: all 1s ease 0s;
 }
+.cards{
+    margin-inline: 20px;
+}
+.cards:hover{
+    transform: scale(1.2);
+}
+

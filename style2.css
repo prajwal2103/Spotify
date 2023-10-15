@@ -13,6 +13,9 @@
     padding-inline: 10px;
     position: relative;
     overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .content{
     flex:0.9;
@@ -39,14 +42,14 @@
 .nav-1>li{
     list-style-type: none;
     color:white;
-    padding:10px 0px;
+    padding:15px 0px;
 }
 .nav-1>li>a>span{
-    font-size: 14px;
+    font-size: 16px;
     padding-left: 10px;
 }
 .last-img{
-  padding-top: 40px;
+ flex:2;
 }
 .last-img>img{
    width:200px;
@@ -246,7 +249,19 @@ li:hover{
   i:hover{
     transform: scale(2);
   }
-   
+  .nav-2 li{
+    padding:15px 0px;
+  }
+  .navigation-container{
+    flex:3;
+  }
+  .content-logo>img{
+    opacity: 0.6;
+    cursor: pointer;
+  }
+
+  
+
 
 
   
