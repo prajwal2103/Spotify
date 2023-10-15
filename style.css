@@ -56,11 +56,11 @@ footer{
     width:150px;
 }
 .logo{
-    flex:0.1;
+    flex:1;
     padding:15px 20px;
 }
 .navigation{
-    flex:0.1;
+    flex:1;
    margin-block: 8px;
 }
 .navigation>ul>li>a{
@@ -68,14 +68,13 @@ footer{
     align-items: center;
 }
 .fav-links{
-    flex:0.4;
+    flex:1;
+    border:1px solid;
 }
 
 .Install{
     padding-left:28px;
-   
-   
-    
+   flex:4;
 }
 .Install>a>img{
     margin-right: 10px;
